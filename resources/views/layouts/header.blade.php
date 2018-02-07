@@ -1,7 +1,14 @@
-<div class="navbar header-div" style="padding-left: 25px; max-width: 1440px;">
-  <img src="assets/AtkinsSeed-Logo.png" class="m-3 left-align" alt="Atkisns Seed Service" style="max-height: 75px; border-radius: 3px;">
+<div class="d-flex navbar header-div" style="padding-left: 25px; max-width: 1440px;">
+  <div class="mr-auto">
+      <img src="assets/AtkinsSeed-Logo.png" class="left-align" style="max-height: 75px; border-radius: 3px;">
+  </div>
+  {{-- <div class=""> --}}
+    <a href="https://www.facebook.com/AtkinsSeedService/" target="_blank"><img src="assets/Facebook-Icon.png" style="max-height: 50px"></a>
+    <div class="mt-3 pl-3 lead" style="font-size: 20px;">
+      <p>Join us on</br> Facebook!</p>
+    </div>
+  {{-- </div> --}}
 </div>
-
 
 <nav class="yellow navbar navbar-expand-sm navbar-light mb-4">
   <div class="container">
@@ -21,7 +28,7 @@
         <li class="nav-item active">
           <a class="nav-link" href="/Pioneer">Pioneer</a>
         </li>
-        <li class="nav-item active">
+        {{-- <li class="nav-item active">
           <a class="nav-link" href="/Pioneer">Seed Treatment</a>
         </li>
         <li class="nav-item active">
@@ -29,66 +36,19 @@
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="/Crop-Insurance">Custom Farming</a>
+        </li> --}}
+        <li class="nav-item active dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Farming</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="#">Custom Farming</a>
+            <a class="dropdown-item" href="#">Seed Treatment</a>
+            <a class="dropdown-item" href="#">Crop Insurance</a>
+          </div>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="/Contact-Us">Contact Us</a>
         </li>
-        {{-- <li class="nav-item active dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li> --}}
       </ul>
     </div>
   </div>
 </nav>
-
-{{-- <div class="container">
-  <div class="row">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a href="/">
-          <img class="logo" src="assets/AtkinsSeed-Logo.png">
-        </a>
-      <!-- <a class="navbar-brand" href="#">Fixed navbar</a> -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="d-flex collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="p-2 nav-item active">
-            <a class="nav-link" href="/">Home</a>
-          </li>
-          <li class="p-2 nav-item active">
-            <a class="nav-link" href="/Precision-Planting">Precision Planting</a>
-          </li>
-          <li class="p-2 nav-item active">
-            <a class="nav-link" href="/Pioneer">Pioneer</a>
-          </li>
-          <li class="p-2 nav-item active">
-            <a class="nav-link" href="/Pioneer">Seed Treatment</a>
-          </li>
-          <li class="p-2 nav-item active">
-            <a class="nav-link" href="/Crop-Insurance">Crop Insurance</a>
-          </li>
-          <li class="p-2 nav-item active">
-            <a class="nav-link" href="/Crop-Insurance">Custom Farming</a>
-          </li>
-          <li class="p-2 nav-item active">
-            <a class="nav-link" href="/Contact-Us">Contact Us</a>
-          </li>
-          <li class="p-2 nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-</div> --}}

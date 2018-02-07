@@ -5,7 +5,8 @@
   <body>
 
     <main role="main">
-        <div id="carouselExampleControls" class="container carousel slide" data-ride="carousel">
+
+        <div id="carouselExampleControls" class="container carousel slide pt-3 pb-5" data-ride="carousel">
         <div class="carousel-inner">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -53,9 +54,11 @@
         </div>
     
 
-        <div class="container" style="padding-top: 100px;">
+        <div class="container">
+                
+                {{-- <hr class="featurette-divider"> --}}
         
-                <div class="row featurette">
+                <div class="row featurette pt-5 pb-5">
                   <div class="col-md-7">
                       <h2 class="featurette-heading">Precision Planting <span class="text-muted" style="font-size: 20px">The Right Tools For The Job</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -63,13 +66,13 @@
                   </div>
 
                   <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto" style="border-radius: 25px;" src="assets/Crops500x500.jpg" alt="Crops">
+                      <img class="featurette-image img-fluid mx-auto" style="border-radius: 25px;" src="assets/SeedSense500x500.jpg" alt="Generic placeholder image">
                   </div>
                 </div>
 
-                <hr class="featurette-divider">
+                {{-- <hr class="featurette-divider"> --}}
 
-                <div class="row featurette">
+                <div class="row featurette pt-5 pb-5">
                   <div class="col-md-7 order-md-2">
                       <h2 class="featurette-heading">Pioneer Seeds <span class="text-muted" style="font-size: 20px">The Best Seeds Avaliable</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -80,34 +83,31 @@
                   </div>
                 </div>
 
-                <hr class="featurette-divider">
+                {{-- <hr class="featurette-divider"> --}}
 
-                <div class="row featurette">
+                <div class="row featurette pt-5">
                   <div class="col-md-7">
                       <h2 class="featurette-heading">Crop Insurance <span class="text-muted" style="font-size: 20px">Peace Of Mind</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                   </div>
 
                   <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto" style="border-radius: 25px;" src="assets/SeedSense500x500.jpg" alt="Generic placeholder image">
+                      <img class="featurette-image img-fluid mx-auto" style="border-radius: 25px;" src="assets/Crops500x500.jpg" alt="Crops">
                   </div>
                 </div>
 
-                <hr class="featurette-divider">
+                {{-- <hr class="featurette-divider"> --}}
         </div>
 
       </div><!-- /.container -->
 
 
       <!-- FOOTER -->
-      <footer class="container" style="padding-top: 25px;">
-        <p class="float-right"><a href="#">Back to top</a></p>
+      <footer class="container" style="padding-top: 175px;">
+        <a href="#" class="float-right" style="color: black; text-decoration: none;">Back to top<img src="assets/Up-Arrow.svg"></a>
         <p>&copy; 2018 Atkins Seed Service</p>
       </footer>
     </main>
   </body>
-
-
-
 
 @endsection
