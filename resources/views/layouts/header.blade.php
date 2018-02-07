@@ -1,5 +1,5 @@
-<div class="header-div row" style="padding-left: 25px;">
-  <img src="assets/AtkinsSeed-Logo.png" class="m-3 justify-content-start left-align" alt="Atkisns Seed Service" style="max-height: 75px; border-radius: 3px;">
+<div class="navbar header-div" style="padding-left: 25px; max-width: 1440px;">
+  <img src="assets/AtkinsSeed-Logo.png" class="m-3 left-align" alt="Atkisns Seed Service" style="max-height: 75px; border-radius: 3px;">
 </div>
 
 

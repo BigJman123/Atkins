@@ -5,9 +5,3 @@
 .yellow {
 	background: linear-gradient(0deg, hsl(57, 100%, 50%), hsl(57, 80%, 50%));
 }
-
-.logo {
-	position: static;
-	height: 50px;
-	border-radius: 5px;
-}
