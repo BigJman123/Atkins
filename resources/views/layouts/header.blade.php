@@ -1,6 +1,6 @@
 <div class="d-flex navbar header-div" style="padding-left: 25px; max-width: 1440px;">
   <div class="mr-auto">
-      <img src="assets/AtkinsSeed-Logo.png" class="left-align" style="max-height: 75px; border-radius: 3px;">
+      <img src="assets/AtkinsSeed-Logo-Transparent.png" class="left-align" style="max-height: 75px; border-radius: 3px;">
   </div>
   {{-- <div class=""> --}}
     <a href="https://www.facebook.com/AtkinsSeedService/" target="_blank"><img src="assets/Facebook-Icon.png" style="max-height: 50px"></a>
