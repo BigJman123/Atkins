@@ -1,16 +1,16 @@
-<div class="d-flex navbar header-div" style="padding-left: 25px; max-width: 1440px;">
+<div class="d-flex navbar header-div" style="padding-left: 25px;">
   <div class="mr-auto">
-      <img src="assets/AtkinsSeed-Logo-Transparent.png" class="left-align" style="max-height: 75px; border-radius: 3px;">
+      <a href="/"><img src="assets/AtkinsSeed-Logo-Transparent.png" class="logo-small left-align" style="max-height: 75px; border-radius: 3px;"></a>
   </div>
-  {{-- <div class=""> --}}
-    <a href="https://www.facebook.com/AtkinsSeedService/" target="_blank"><img src="assets/Facebook-Icon.png" style="max-height: 50px"></a>
-    <div class="mt-3 pl-3 lead" style="font-size: 20px;">
-      <p>Join us on</br> Facebook!</p>
-    </div>
-  {{-- </div> --}}
+  
+  <a href="https://www.facebook.com/AtkinsSeedService/" target="_blank"><img src="assets/Facebook-Icon.png" style="max-height: 50px" class="link-small"></a>
+
+  <div class="mt-3 pl-3 lead link-small-font" style="font-size: 20px;">
+    <p>Join us on</br> Facebook!</p>
+  </div>
 </div>
 
-<nav class="yellow navbar navbar-expand-sm navbar-light mb-4">
+<nav class="yellow navbar navbar-expand-sm navbar-light">
   <div class="container">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,15 +28,6 @@
         <li class="nav-item active">
           <a class="nav-link" href="/Pioneer">Pioneer</a>
         </li>
-        {{-- <li class="nav-item active">
-          <a class="nav-link" href="/Pioneer">Seed Treatment</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="/Crop-Insurance">Crop Insurance</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="/Crop-Insurance">Custom Farming</a>
-        </li> --}}
         <li class="nav-item active dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Farming</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -44,6 +35,9 @@
             <a class="dropdown-item" href="#">Seed Treatment</a>
             <a class="dropdown-item" href="#">Crop Insurance</a>
           </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/Crop-Insurance">Employees</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="/Contact-Us">Contact Us</a>

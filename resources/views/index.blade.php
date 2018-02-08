@@ -6,7 +6,7 @@
 
     <main role="main">
 
-        <div id="carouselExampleControls" class="container carousel slide pt-3 pb-5" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="false" style="padding-bottom: 50px">
         <div class="carousel-inner">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -16,18 +16,18 @@
             <div class="carousel-item active">
             <img class="d-block w-100" src="assets/AtkinsFamily.jpg" alt="First slide">
             <div class="container">
-              <div class="carousel-caption text-left">
-                <h2>Family Owned and Operated.</h2>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <div class="carousel-caption text-left small-margins" style="margin-bottom: 50px">
+                <h2 class="small-caption">Family Owned and Operated.</h2>
+                <p class="d-none d-sm-block">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               </div>
             </div>
             </div>
             <div class="carousel-item">
             <img class="d-block w-100" src="assets/Tractor960x480.jpg" alt="Second slide">
             <div class="container">
-              <div class="carousel-caption text-left">
-                <h2>Precision Planting</h2>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <div class="carousel-caption text-left small-margins" style="margin-bottom: 50px">
+                <h2 class="small-caption">Precision Planting</h2>
+                <p class="d-none d-sm-block">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 {{-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Do Something</a></p> --}}
               </div>
             </div>
@@ -35,9 +35,9 @@
             <div class="carousel-item">
             <img class="d-block w-100" src="assets/Field960x480.jpg" alt="Third slide">
             <div class="container">
-              <div class="carousel-caption text-left">
-                <h2>The Best Equipment For The Job</h2>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <div class="carousel-caption text-left small-margins" style="margin-bottom: 50px">
+                <h2 class="small-caption">The Best Equipment For The Job</h2>
+                <p class="d-none d-sm-block">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 {{-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Do Something</a></p> --}}
               </div>
             </div>
@@ -58,7 +58,7 @@
                 
                 {{-- <hr class="featurette-divider"> --}}
         
-                <div class="row featurette pt-5 pb-5">
+                <div class="row featurette right original-padding-none mobile-padding" style="padding-top: 50px; padding-bottom: 50px;">
                   <div class="col-md-7">
                       <h2 class="featurette-heading">Precision Planting <span class="text-muted" style="font-size: 20px">The Right Tools For The Job</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -72,10 +72,11 @@
 
                 {{-- <hr class="featurette-divider"> --}}
 
-                <div class="row featurette pt-5 pb-5">
+                <div class="row featurette left original-padding-none mobile-padding" style="padding-top: 50px; padding-bottom: 50px">
                   <div class="col-md-7 order-md-2">
                       <h2 class="featurette-heading">Pioneer Seeds <span class="text-muted" style="font-size: 20px">The Best Seeds Avaliable</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                      {{-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Do Something</a></p> --}}
                   </div>
 
                   <div class="col-md-5 order-md-1">
@@ -85,10 +86,11 @@
 
                 {{-- <hr class="featurette-divider"> --}}
 
-                <div class="row featurette pt-5">
+                <div class="row featurette right original-padding-none mobile-padding" style="padding-top: 50px">
                   <div class="col-md-7">
                       <h2 class="featurette-heading">Crop Insurance <span class="text-muted" style="font-size: 20px">Peace Of Mind</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                      {{-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Do Something</a></p> --}}
                   </div>
 
                   <div class="col-md-5">
@@ -101,12 +103,6 @@
 
       </div><!-- /.container -->
 
-
-      <!-- FOOTER -->
-      <footer class="container" style="padding-top: 175px;">
-        <a href="#" class="float-right" style="color: black; text-decoration: none;">Back to top<img src="assets/Up-Arrow.svg"></a>
-        <p>&copy; 2018 Atkins Seed Service</p>
-      </footer>
     </main>
   </body>
 

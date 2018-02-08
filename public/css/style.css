@@ -5,3 +5,39 @@
 .yellow {
 	background: linear-gradient(0deg, hsl(57, 100%, 50%), hsl(57, 80%, 50%));
 }
+
+@media(max-width: 456px) {
+	.logo-small {
+		width: 150px !important;
+	}
+
+	.link-small {
+		width: 30px !important;
+	}
+	
+	.link-small-font {
+		font-size: 12px !important;
+	}
+
+	.small-margins {
+		margin-bottom: 0px !important;
+	}
+	
+	.small-caption {
+		font-size: 20px !important;
+	}
+
+	.original-padding-none {
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+
+	.mobile-padding {
+		padding-top: 15px !important;
+		padding-bottom: 15px !important;
+	}
+
+	.mobile-font-size {
+		font-size: 15px !important;
+	}
+}
