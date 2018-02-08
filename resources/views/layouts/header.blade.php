@@ -31,13 +31,13 @@
         <li class="nav-item active dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Farming</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Custom Farming</a>
-            <a class="dropdown-item" href="#">Seed Treatment</a>
-            <a class="dropdown-item" href="#">Crop Insurance</a>
+            <a class="dropdown-item" href="/Custom-Farming">Custom Farming</a>
+            <a class="dropdown-item" href="/Seed-Treatment">Seed Treatment</a>
+            <a class="dropdown-item" href="/Crop-Insurance">Crop Insurance</a>
           </div>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/Crop-Insurance">Employees</a>
+          <a class="nav-link" href="/Employees">Employees</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="/Contact-Us">Contact Us</a>
