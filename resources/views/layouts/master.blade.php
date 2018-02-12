@@ -35,8 +35,6 @@
 
             sr.reveal('.picture', { origin: 'bottom', duration: 1000 }, 100);
             sr.reveal('.description', { origin: 'bottom', duration: 1000 }, 100);
-
-            
       </script>
     </body>
 </html>
