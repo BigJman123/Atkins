@@ -8,7 +8,7 @@
 
 @media(max-width: 456px) {
 	
-	/* Index page */
+	/* Index Page */
 	.logo-small {
 		width: 150px !important;
 	}
@@ -43,7 +43,7 @@
 		font-size: 15px !important;
 	}
 	
-	/* Employee page */
+	/* Employee Page */
 	.employee-mobile-padding {
 		padding-top: 50px !important;
 	}
@@ -52,5 +52,7 @@
 		/* margin-top: 25px; */
 		margin-bottom: 25px;
 	}
+	
+	/* Precision Planting Page */
 	
 }

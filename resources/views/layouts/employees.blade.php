@@ -5,7 +5,7 @@
 
     <div class="row text-center justify-content-around">
 
-        <div class="col-lg-4 picture border employee-mobile-margins" style="max-width: 350px;">
+        <div class="col-lg-4 picture border rounded employee-mobile-margins" style="max-width: 350px;">
             <img class="rounded-circle" src="assets/Employee1.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
             <h2>Employee Name</h2>
             <hr style="width: 85%">
@@ -13,7 +13,7 @@
             {{-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> --}}
         </div>
 
-        <div class="col-lg-4 picture border employee-mobile-margins" style="max-width: 350px">
+        <div class="col-lg-4 picture border rounded employee-mobile-margins" style="max-width: 350px">
             <img class="rounded-circle" src="assets/Employee2.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
             <h2>Employee Name</h2>
             <hr style="width: 85%">
@@ -21,7 +21,7 @@
             {{-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> --}}
         </div>
 
-        <div class="col-lg-4 picture border" style="max-width: 350px">
+        <div class="col-lg-4 picture border rounded" style="max-width: 350px">
             <img class="rounded-circle" src="assets/Employee3.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
             <h2>Employee Name</h2>
             <hr style="width: 85%">
@@ -33,7 +33,7 @@
     
     <div class="row text-center justify-content-around" style="padding-top: 25px;">
 
-        <div class="col-lg-4 picture border employee-mobile-margins" style="max-width: 350px">
+        <div class="col-lg-4 picture border rounded employee-mobile-margins" style="max-width: 350px">
             <img class="rounded-circle" src="assets/Employee4.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
             <h2>Employee Name</h2>
             <hr style="width: 85%">
@@ -41,7 +41,7 @@
             {{-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> --}}
         </div>
 
-        <div class="col-lg-4 picture border employee-mobile-margins" style="max-width: 350px">
+        <div class="col-lg-4 picture border rounded employee-mobile-margins" style="max-width: 350px">
             <img class="rounded-circle" src="assets/Employee5.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
             <h2>Employee Name</h2>
             <hr style="width: 85%">
@@ -49,7 +49,7 @@
             {{-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> --}}
         </div>
 
-        <div class="col-lg-4 picture border employee-mobile-margins" style="max-width: 350px">
+        <div class="col-lg-4 picture border rounded employee-mobile-margins" style="max-width: 350px">
             <img class="rounded-circle" src="assets/Employee6.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
             <h2>Employee Name</h2>
             <hr style="width: 85%">
