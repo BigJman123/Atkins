@@ -54,5 +54,12 @@
 	}
 	
 	/* Precision Planting Page */
+
+	.logo-container-padding-mobile {
+		padding-top: 50px !important;
+	}
 	
+	.precision-planting-logo-mobile-size {
+		width: 325px !important;
+	}
 }

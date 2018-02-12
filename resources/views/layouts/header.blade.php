@@ -23,24 +23,24 @@
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/Precision-Planting">Precision Planting</a>
+          <a class="nav-link" href="/precision-planting">Precision Planting</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/Pioneer">Pioneer</a>
+          <a class="nav-link" href="/pioneer">Pioneer</a>
         </li>
         <li class="nav-item active dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Farming</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="/Custom-Farming">Custom Farming</a>
-            <a class="dropdown-item" href="/Seed-Treatment">Seed Treatment</a>
-            <a class="dropdown-item" href="/Crop-Insurance">Crop Insurance</a>
+            <a class="dropdown-item" href="/custom-farming">Custom Farming</a>
+            <a class="dropdown-item" href="/seed-treatment">Seed Treatment</a>
+            <a class="dropdown-item" href="/crop-insurance">Crop Insurance</a>
           </div>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/Employees">Employees</a>
+          <a class="nav-link" href="/employees">Employees</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="/Contact-Us">Contact Us</a>
+          <a class="nav-link" href="/contact-us">Contact Us</a>
         </li>
       </ul>
     </div>

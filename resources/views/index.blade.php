@@ -66,7 +66,7 @@
                   </div>
 
                   <div class="col-md-5">
-                      <img class="featurette-image img-fluid mx-auto" style="border-radius: 25px;" src="assets/SeedSense500x500.jpg" alt="Generic placeholder image">
+                      <img class="featurette-image img-fluid mx-auto" style="border-radius: 25px;" src="assets/2020SeedSenseProducts.jpg" alt="Generic placeholder image">
                   </div>
                 </div>
 
