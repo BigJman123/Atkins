@@ -29,7 +29,7 @@
             <div class="col-md-7">
                 <h2 class="featurette-heading">20/20 SeedSense <br><span class="text-muted" style="font-size: 20px">Real Time Information</span></h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                <p><a class="btn btn-lg btn-primary" href="https://goo.gl/D416uv" target="_blank" role="button">Learn More</a></p>
+                <p><a class="btn btn-lg btn-success header-div" href="https://goo.gl/D416uv" target="_blank" role="button">Learn More</a></p>
             </div>
 
             <div class="col-md-5">
@@ -41,7 +41,7 @@
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">20/20 RowFlow <br><span class="text-muted" style="font-size: 20px">True Precision Planting</span></h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                <p><a class="btn btn-lg btn-primary" href="https://goo.gl/XVtZSQ" target="_blank" role="button">Learn More</a></p>
+                <p><a class="btn btn-lg btn-success header-div" href="https://goo.gl/XVtZSQ" target="_blank" role="button">Learn More</a></p>
             </div>
 
             <div class="col-md-5 order-md-1">
@@ -53,7 +53,7 @@
             <div class="col-md-7">
                 <h2 class="featurette-heading">20/20 AirForce <br><span class="text-muted" style="font-size: 20px">Spot On Seed Depth Analysis</span></h2>
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                <p><a class="btn btn-lg btn-primary" href="https://goo.gl/E8eJi1" target="_blank" role="button">Learn More</a></p>
+                <p><a class="btn btn-lg btn-success header-div" href="https://goo.gl/E8eJi1" target="_blank" role="button">Learn More</a></p>
             </div>
 
             <div class="col-md-5">
