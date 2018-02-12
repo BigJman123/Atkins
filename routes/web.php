@@ -12,7 +12,7 @@ Route::get('/Seed-Treatment', function() {return view('layouts.treatment');});
 
 Route::get('/Crop-Insurance', function() {return view('layouts.insurance');});
 
-Route::get('/Employees', function() {return view('layouts.employee');});
+Route::get('/Employees', function() {return view('layouts.employees');});
 
 Route::get('/Contact-Us', function() {return view('layouts.contact');});
 

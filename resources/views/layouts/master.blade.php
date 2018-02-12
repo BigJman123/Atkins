@@ -29,9 +29,14 @@
                 sr.reveal('.right', {origin:'bottom', duration: 1000, delay: 250, distance: '200px'});
                 sr.reveal('.left', {origin: 'bottom', duration: 1000, delay: 250, distance: '200px'});
             }else {
-                sr.reveal('.right', {origin:'right', duration: 1000, delay: 250, distance: '200px'});
-                sr.reveal('.left', {origin: 'left', duration: 1000, delay: 250, distance: '200px'})
+                sr.reveal('.right', {origin:'right', duration: 1000, delay: 250, viewFactor: 0.4, distance: '200px'});
+                sr.reveal('.left', {origin: 'left', duration: 1000, delay: 250, viewFactor: 0.4, distance: '200px'})
             }
+
+            sr.reveal('.picture', { origin: 'bottom', duration: 1000 }, 100);
+            sr.reveal('.description', { origin: 'bottom', duration: 1000 }, 100);
+
+            
       </script>
     </body>
 </html>
