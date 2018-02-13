@@ -88,7 +88,7 @@
 
                 <div class="row featurette right original-padding-none mobile-padding" style="padding-top: 50px">
                   <div class="col-md-7">
-                      <h2 class="featurette-heading">Crop Insurance <br><span class="text-muted" style="font-size: 20px">Peace Of Mind</span></h2>
+                      <h2 class="featurette-heading">Custom Farming <br><span class="text-muted" style="font-size: 20px">Something Something Farming</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                       {{-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Do Something</a></p> --}}
                   </div>

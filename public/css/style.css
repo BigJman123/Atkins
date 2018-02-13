@@ -1,3 +1,7 @@
+body {
+	background-color: hsla(120, 10%, 92%, 1) !important;
+}
+
 .header-div {
 	background: linear-gradient(0deg, hsl(120, 100%, 20%), hsl(120, 40%, 46%));
 }
@@ -64,6 +68,17 @@
 	}
 
 	/* Pioneer Page */
+	.pioneer-planting-logo-mobile-size {
+		width: 325px !important;
+	}
+
+	.pioneer-description-padding-mobile {
+		padding-top: 25px !important;
+	}
+
+	.pioneer-info-padding-mobile {
+		padding-top: 50px !important;
+	}
 }
 
 .color:active {

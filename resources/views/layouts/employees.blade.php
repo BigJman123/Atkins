@@ -2,12 +2,6 @@
 
 @section('content')
 
-    <style type="text/css">
-    body {
-    background-color: #eaeaea;
-    }
-    </style>
-
     <div class="container marketing employee-mobile-padding" style="padding-top: 100px;">
 
     <div class="row text-center justify-content-around">

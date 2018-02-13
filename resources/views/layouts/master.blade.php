@@ -25,6 +25,7 @@
         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
         <script>
 
+            /* index page */
             window.sr = ScrollReveal();
             if(innerWidth <= 546) {
                 sr.reveal('.right', {origin:'bottom', duration: 1000, delay: 250, distance: '200px'});
@@ -34,8 +35,15 @@
                 sr.reveal('.left', {origin: 'left', duration: 1000, delay: 250, viewFactor: 0.5, distance: '175px'})
             }
 
+            /* employee page */
             sr.reveal('.picture', { origin: 'bottom', duration: 1000 }, 100);
             sr.reveal('.description', { origin: 'bottom', duration: 1000 }, 100);
+
+            /* pioneer page */
+            sr.reveal('.rightSeed', { origin: 'right', duration: 1000, distance: '10px' }, 500);
+            sr.reveal('.leftSeed', { origin: 'left', duration: 1000, distance: '10px' }, 500);
+
+            sr.reveal('.seed',  {origin: 'bottom', duration: 250, distance: '10px' }, 50);
 
       </script>
     </body>
