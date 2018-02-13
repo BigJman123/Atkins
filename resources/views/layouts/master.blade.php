@@ -40,10 +40,29 @@
             sr.reveal('.description', { origin: 'bottom', duration: 1000 }, 100);
 
             /* pioneer page */
-            sr.reveal('.rightSeed', { origin: 'right', duration: 1000, distance: '10px' }, 500);
-            sr.reveal('.leftSeed', { origin: 'left', duration: 1000, distance: '10px' }, 500);
+            if(innerWidth <= 546) {
+                sr.reveal('.rightSeed1', { origin: 'right', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
+                sr.reveal('.rightSeed2', { origin: 'right', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
+                sr.reveal('.rightSeed3', { origin: 'right', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
 
-            sr.reveal('.seed',  {origin: 'bottom', duration: 250, distance: '10px' }, 50);
+                sr.reveal('.leftSeed1', { origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
+                sr.reveal('.leftSeed2', { origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
+                sr.reveal('.leftSeed3', { origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
+
+                sr.reveal('.seed1',  {origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
+                sr.reveal('.seed2',  {origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
+                sr.reveal('.seed3',  {origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
+            }else {
+                sr.reveal('.rightSeed1', { origin: 'right', duration: 1000, distance: '10px' }, 500);
+                sr.reveal('.rightSeed2', { origin: 'right', duration: 1000, distance: '10px' }, 500);
+                sr.reveal('.rightSeed3', { origin: 'right', duration: 1000, distance: '10px' }, 500);
+                
+                sr.reveal('.leftSeed', { origin: 'left', duration: 1000, distance: '10px' }, 500);
+
+                sr.reveal('.seed1',  {origin: 'bottom', duration: 250, distance: '10px' }, 50);
+                sr.reveal('.seed2',  {origin: 'bottom', duration: 250, distance: '10px' }, 50);
+                sr.reveal('.seed3',  {origin: 'bottom', duration: 250, distance: '10px' }, 50);
+            }
 
       </script>
     </body>

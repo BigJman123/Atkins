@@ -26,16 +26,16 @@
                     </div>
                     <div class="card-body">
                         {{-- "Corn Seed" by Patrick Snyder from The Noun Project. Modified. https://thenounproject.com/term/corn-seed/395777/ --}}
-                        <p class="card-text" style="font-size: 25px; letter-spacing: 1px"><img src="assets/corn-seed.svg" class="seed" style="margin-right: 10px; padding-bottom: 5px;"><strong>Corn</strong><img src="assets/green-checkmark-circle.svg" class="rightSeed" style="margin-left: 10px"></p>
+                        <p class="card-text" style="font-size: 25px; letter-spacing: 1px"><img src="assets/corn-seed.svg" class="seed1" style="margin-right: 10px; padding-bottom: 5px;"><strong>Corn</strong><img src="assets/green-checkmark-circle.svg" class="rightSeed1" style="margin-left: 10px"></p>
                         {{-- "Wheat" by Blaise Sewell from The Noun Project. Modified. https://thenounproject.com/term/wheat/76330/ --}}
-                        <p class="card-text" style="font-size: 25px; letter-spacing: 1px"><img src="assets/wheat.svg" class="seed" style="padding-bottom: 5px;"><strong>Wheat</strong><img src="assets/green-checkmark-circle.svg" class="rightSeed" style="margin-left: 10px"></p>
+                        <p class="card-text" style="font-size: 25px; letter-spacing: 1px"><img src="assets/wheat.svg" class="seed2" style="padding-bottom: 5px;"><strong>Wheat</strong><img src="assets/green-checkmark-circle.svg" class="rightSeed2" style="margin-left: 10px"></p>
                     </div>
                     <div class="card-header" style="font-size: 1.5em; font-weight: 250; letter-spacing: 1px">
                         Beans We Provide:
                     </div>
                     <div class="card-body">
                         {{-- "Soy Bean" by Jamie Yeo from The Noun Project. Modified. https://thenounproject.com/term/soy/1067299/ --}}
-                        <p class="card-text" style="font-size: 25px; letter-spacing: 1px"><img src="assets/soy.svg" class="seed" style="margin-right: 10px; padding-bottom: 5px;"><strong>Soy</strong><img src="assets/green-checkmark-circle.svg" class="rightSeed" style="margin-left: 10px"></p>
+                        <p class="card-text" style="font-size: 25px; letter-spacing: 1px"><img src="assets/soy.svg" class="seed3" style="margin-right: 10px; padding-bottom: 5px;"><strong>Soy</strong><img src="assets/green-checkmark-circle.svg" class="rightSeed3" style="margin-left: 10px"></p>
                     </div>
                 </div>
             </div>
