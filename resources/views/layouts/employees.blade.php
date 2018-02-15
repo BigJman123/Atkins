@@ -6,7 +6,7 @@
 
     <div class="row text-center justify-content-around">
 
-        <div class="col-lg-4 picture rounded employee-mobile-margins" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #7c7c7c">
+        <div class="col-lg-4 picture rounded employee-mobile-margins" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #9b9b9b">
             <img class="rounded-circle" src="assets/Employee1.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
             <h2>Employee Name</h2>
             <p class="lead" style="font-size: 15px">JOB TITLE</p>
@@ -14,7 +14,7 @@
             {{-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> --}}
         </div>
 
-        <div class="col-lg-4 picture rounded employee-mobile-margins" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #7c7c7c">
+        <div class="col-lg-4 picture rounded employee-mobile-margins" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #9b9b9b">
             <img class="rounded-circle" src="assets/Employee2.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
             <h2>Employee Name</h2>
             <p class="lead" style="font-size: 15px">JOB TITLE</p>
@@ -22,7 +22,7 @@
             {{-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> --}}
         </div>
 
-        <div class="col-lg-4 picture rounded" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #7c7c7c">
+        <div class="col-lg-4 picture rounded" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #9b9b9b">
             <img class="rounded-circle" src="assets/Employee3.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
             <h2>Employee Name</h2>
             <p class="lead" style="font-size: 15px">JOB TITLE</p>
@@ -34,7 +34,7 @@
         
         <div class="row text-center justify-content-around" style="padding-top: 25px;">
 
-            <div class="col-lg-4 picture rounded employee-mobile-margins" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #7c7c7c">
+            <div class="col-lg-4 picture rounded employee-mobile-margins" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #9b9b9b">
                 <img class="rounded-circle" src="assets/Employee4.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
                 <h2>Employee Name</h2>
                 <p class="lead" style="font-size: 15px">JOB TITLE</p>
@@ -42,7 +42,7 @@
                 {{-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> --}}
             </div>
 
-            <div class="col-lg-4 picture rounded employee-mobile-margins" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #7c7c7c">
+            <div class="col-lg-4 picture rounded employee-mobile-margins" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #9b9b9b">
                 <img class="rounded-circle" src="assets/Employee5.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
                 <h2>Employee Name</h2>
                 <p class="lead" style="font-size: 15px">JOB TITLE</p>
@@ -50,7 +50,7 @@
                 {{-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> --}}
             </div>
 
-            <div class="col-lg-4 picture rounded employee-mobile-margins" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #7c7c7c">
+            <div class="col-lg-4 picture rounded employee-mobile-margins" style="max-width: 350px; background-color: #fff; box-shadow: 3px 3px 3px #9b9b9b">
                 <img class="rounded-circle" src="assets/Employee6.jpg" alt="Generic placeholder image" width="160" height="160" style="margin-top: 25px; margin-bottom: 25px">
                 <h2>Employee Name</h2>
                 <p class="lead" style="font-size: 15px">JOB TITLE</p>

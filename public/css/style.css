@@ -82,6 +82,11 @@ body {
 	.pioneer-description-padding-mobile {
 		padding-top: 25px !important;
 	}
+
+	/* Footer */
+	.footer-nav-font-size {
+		font-size: 12px !important;
+	}
 }
 
 .color:active {
@@ -91,3 +96,8 @@ body {
 .footer-bgcolor {
 	background-color: hsla(120, 10%, 85%, 1) !important;
 }
+
+.footer-color:hover {
+	color: #666666 !important;
+}
+
