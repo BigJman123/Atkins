@@ -1,5 +1,7 @@
 body {
 	background-color: hsla(120, 10%, 92%, 1) !important;
+	margin: 0px !important;
+	padding: 0px !important;
 }
 
 .header-div {
@@ -43,6 +45,10 @@ body {
 		padding-bottom: 15px !important;
 	}
 
+	.mobile-padding-bottom {
+		padding-bottom: 50px !important;
+	}
+
 	.mobile-font-size {
 		font-size: 15px !important;
 	}
@@ -50,6 +56,7 @@ body {
 	/* Employee Page */
 	.employee-mobile-padding {
 		padding-top: 50px !important;
+		padding-bottom: 50px !important;
 	}
 	
 	.employee-mobile-margins {
@@ -75,12 +82,12 @@ body {
 	.pioneer-description-padding-mobile {
 		padding-top: 25px !important;
 	}
-
-	.pioneer-info-padding-mobile {
-		padding-top: 50px !important;
-	}
 }
 
 .color:active {
 	background: linear-gradient(0deg, hsl(120, 100%, 20%), hsl(120, 40%, 46%));
+}
+
+.footer-bgcolor {
+	background-color: hsla(120, 10%, 85%, 1) !important;
 }

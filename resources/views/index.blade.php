@@ -86,7 +86,7 @@
 
                 {{-- <hr class="featurette-divider"> --}}
 
-                <div class="row featurette right original-padding-none mobile-padding" style="padding-top: 50px">
+                <div class="row featurette right original-padding-none mobile-padding-bottom" style="padding-top: 50px; padding-bottom: 100px">
                   <div class="col-md-7">
                       <h2 class="featurette-heading">Custom Farming <br><span class="text-muted" style="font-size: 20px">Something Something Farming</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
