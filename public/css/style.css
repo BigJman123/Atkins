@@ -87,6 +87,14 @@ body {
 	.footer-nav-font-size {
 		font-size: 12px !important;
 	}
+
+	.mobile-margin-footer-right {
+		margin-right: 10px !important;
+	}
+	
+	.mobile-margin-footer-left {
+		margin-left: 10px !important;
+	}
 }
 
 .color:active {

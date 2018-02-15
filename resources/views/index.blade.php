@@ -60,7 +60,7 @@
         
                 <div class="row featurette right original-padding-none mobile-padding" style="padding-top: 50px; padding-bottom: 50px;">
                   <div class="col-md-7">
-                      <h2 class="featurette-heading">Precision Planting <br><span class="text-muted" style="font-size: 20px">The Right Tools For The Job</span></h2>
+                      <h2 class="featurette-heading" style="font-weight: 500">Precision Planting <br><span class="text-muted" style="font-size: 20px;">The Right Tools For The Job</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                       {{-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Do Something</a></p> --}}
                   </div>
@@ -74,7 +74,7 @@
 
                 <div class="row featurette left original-padding-none mobile-padding" style="padding-top: 50px; padding-bottom: 50px">
                   <div class="col-md-7 order-md-2">
-                      <h2 class="featurette-heading">Pioneer Seeds <br><span class="text-muted" style="font-size: 20px">The Best Seeds Avaliable</span></h2>
+                      <h2 class="featurette-heading" style="font-weight: 500">Pioneer Seeds <br><span class="text-muted" style="font-size: 20px;">The Best Seeds Avaliable</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                       {{-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Do Something</a></p> --}}
                   </div>
@@ -88,7 +88,7 @@
 
                 <div class="row featurette right original-padding-none mobile-padding-bottom" style="padding-top: 50px; padding-bottom: 100px">
                   <div class="col-md-7">
-                      <h2 class="featurette-heading">Custom Farming <br><span class="text-muted" style="font-size: 20px">Something Something Farming</span></h2>
+                      <h2 class="featurette-heading" style="font-weight: 500">Custom Farming <br><span class="text-muted" style="font-size: 20px;">Something Something Farming</span></h2>
                       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                       {{-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Do Something</a></p> --}}
                   </div>
@@ -96,9 +96,9 @@
                   <div class="col-md-5">
                       <img class="featurette-image img-fluid mx-auto" style="border-radius: 25px;" src="assets/Crops500x500.jpg" alt="Crops">
                   </div>
+                  
                 </div>
 
-                {{-- <hr class="featurette-divider"> --}}
         </div>
 
       </div><!-- /.container -->
