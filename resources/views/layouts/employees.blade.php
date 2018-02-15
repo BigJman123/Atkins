@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="container marketing employee-mobile-padding" style="padding-top: 100px; padding-bottom: 50px">
+    <div class="container marketing employee-mobile-padding" style="padding-top: 100px; padding-bottom: 100px">
 
     <div class="row text-center justify-content-around">
 
