@@ -83,6 +83,20 @@ body {
 		padding-top: 25px !important;
 	}
 
+	/* Contact Page */
+
+	.mobile-padding {
+		padding-top: 25px !important;
+	}
+
+	.form-mobile-width {
+		width: 350px !important;
+	}
+
+	.margin-mobile {
+		margin-left: 5px !important;
+	}
+
 	/* Footer */
 	.footer-nav-font-size {
 		font-size: 12px !important;
