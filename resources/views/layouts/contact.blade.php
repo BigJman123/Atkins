@@ -99,6 +99,9 @@
             <label for="TextArea">Message</label>
             <textarea class="form-control" id="TextArea" rows="8" placeholder="Your Message Here"></textarea>
         </div>
+        <div class="form-group text-right">
+            <button type="button" class="btn btn-success header-div">Send</button>
+        </div>
     </form>
 
     <script src="js/gmaps.js"></script>

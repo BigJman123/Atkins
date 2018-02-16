@@ -6,7 +6,7 @@ Route::get('/precision-planting', function() {return view('layouts.planting');})
 
 Route::get('/pioneer', function() {return view('layouts.pioneer');});
 
-Route::get('/custom-farming', function() {return view('layouts.farming');});
+Route::get('/farming', function() {return view('layouts.farming');});
 
 Route::get('/seed-treatment', function() {return view('layouts.treatment');});
 
