@@ -83,6 +83,27 @@ body {
 		padding-top: 25px !important;
 	}
 
+	/* Farming Page */
+	.farming-header-padding-mobile {
+		padding-top: 25px !important;
+		padding-bottom: 15px !important;
+	}
+
+	.farming-email-padding-mobile {
+		padding-top: 100px !important;
+	}
+
+	.farming-phone-padding-mobile {
+		padding-bottom: 50px !important;
+	}
+
+	.farming-phone-padding-top-mobile {
+		padding-top: 50px !important;
+		padding-bottom: 50px !important;
+	}
+
+
+
 	/* Contact Page */
 
 	.mobile-padding {
@@ -90,7 +111,7 @@ body {
 	}
 
 	.form-mobile-width {
-		width: 350px !important;
+		width: 300px !important;
 	}
 
 	.margin-mobile {

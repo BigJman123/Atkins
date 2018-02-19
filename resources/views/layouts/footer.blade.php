@@ -8,13 +8,13 @@
             <a href="/farming" class="footer-color" style="color: black; text-decoration: none"><p class="footer-nav-font-size" style="font-size: 15px">Farming</p></a>
             <a href="/employees" class="footer-color" style="color: black; text-decoration: none"><p class="footer-nav-font-size" style="font-size: 15px">Employees</p></a>
             <a href="/contact-us" class="footer-color" style="color: black; text-decoration: none"><p class="footer-nav-font-size" style="font-size: 15px">Contact Us</p></a>
+            <a href="#" class="float-right footer-color" style="color: black; text-decoration: none;">Back to top<img src="assets/Up-Arrow.svg"></a>
         </div>
         
         <div class="row justify-content-between" style="padding-top: 15px">
             <span class="active mobile-margin-footer-left" style="margin-left: 65px">&copy; 2018 Atkins Seed Service</span>
             {{-- "Facebook logo" by SimpleIcon from FlatIcon. Unmodified. https://www.flaticon.com/free-icon/facebook-logo_33702#term=facebook&page=1&position=5 --}}
             <a href="https://goo.gl/ysG5YC" target="_blank"><img src="assets/facebook-logo-footer.svg" class="mobile-margin-footer-right" style="margin-right: 65px"></a>
-            {{-- <a href="#" class="float-right footer-color" style="color: black; text-decoration: none;">Back to top<img src="assets/Up-Arrow.svg"></a> --}}
         </div>
         
     </div>

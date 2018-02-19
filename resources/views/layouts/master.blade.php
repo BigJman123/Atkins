@@ -41,7 +41,6 @@
             sr.reveal('.description', { origin: 'bottom', duration: 1000 }, 100);
 
             /* pioneer page */
-            /*if(innerWidth <= 546) {*/
             sr.reveal('.circleCheck1', { origin: 'right', duration: 1000, distance: '10px', viewFactor: 0.9 }, 750);
             sr.reveal('.circleCheck2', { origin: 'right', duration: 1000, distance: '10px', viewFactor: 0.9 }, 750);
             sr.reveal('.circleCheck3', { origin: 'right', duration: 1000, distance: '10px', viewFactor: 0.9 }, 750);
@@ -54,20 +53,11 @@
             sr.reveal('.seed2',  {origin: 'bottom', duration: 500, distance: '10px', viewFactor: 0.9 }, 250);
             sr.reveal('.seed3',  {origin: 'bottom', duration: 500, distance: '10px', viewFactor: 0.9 }, 250);
             
-            /*}else {
-                sr.reveal('.circleCheck1', { origin: 'right', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
-                sr.reveal('.circleCheck2', { origin: 'right', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
-                sr.reveal('.circleCheck3', { origin: 'right', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
+            /* farming page */
+            sr.reveal('.farming1', { origin: "bottom", duration: 1000, viewFactor: 0.7 }, 500);
+            sr.reveal('.farming2', { origin: "bottom", duration: 1000, viewFactor: 0.7 }, 500);
+            sr.reveal('.farming3', { origin: "bottom", duration: 1000, viewFactor: 0.7 }, 500);
 
-                sr.reveal('.check1', { origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
-                sr.reveal('.check2', { origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
-                sr.reveal('.check3', { origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
-
-                sr.reveal('.seed1',  {origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
-                sr.reveal('.seed2',  {origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
-                sr.reveal('.seed3',  {origin: 'left', duration: 250, distance: '10px', viewFactor: 0.9 }, 50);
-            }
-            */
       </script>
     </body>
 </html>
