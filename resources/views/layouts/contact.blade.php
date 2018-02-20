@@ -86,7 +86,7 @@
                     </h5>
                 </div>
                 <div class="row">
-                    <div class="col" style="padding-top: 10px; padding-bottom: 10px;"><strong>(815)-945-5113</strong></div>
+                    <div class="col" style="font-size: 25px; padding-top: 10px; padding-bottom: 10px;"><strong>(815)-945-5113</strong></div>
                 </div>
             </div>
         

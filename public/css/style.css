@@ -102,6 +102,25 @@ body {
 		padding-bottom: 50px !important;
 	}
 
+	.farming-title-font-size {
+		font-size: 25px !important;
+	}
+
+	.farming-font-size {
+		font-size: 20px !important;
+	}
+
+	.farming-image-opacity {
+		opacity: 1 !important;
+	}
+
+	.farming-info-mobile-bottom-padding {
+		padding-bottom: 15px !important;
+	}
+	
+	.farming-info-mobile-top-padding {
+		padding-top: 15px !important;
+	}
 
 
 	/* Contact Page */
