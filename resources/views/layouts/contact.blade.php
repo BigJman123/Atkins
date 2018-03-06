@@ -2,6 +2,10 @@
 
 @section('content')
     
+    <div class="text-center">
+        @include('flash::message')
+    </div>
+    
     <div class="container text-center farming-header-padding-mobile" style="padding-top: 100px; padding-bottom: 100px">
         <p class="lead mobile-font-size original-padding-none" style="font-size: 25px; letter-spacing: 1px">Thank you for taking an interest in Atkins Seed Service!</p>
         <p class="lead mobile-font-size original-padding-none" style="font-size: 25px; letter-spacing: 1px">We look forward to serving you!</p>
@@ -18,25 +22,61 @@
             <div class="col-md farming-email-padding-mobile">
 
                 <h3 class="lead text-center" style="font-size: 25px; letter-spacing: 1px; padding-bottom: 25px">Please email us any questions you have below.</h3>
+                
+                {!! Form::open(['route' => 'contact.send']) !!}
 
-                <form style="padding-bottom: 50px;">
+                    <div class="form-group">
+                        {!! Form::label('email', 'Your Email Address') !!}
+                        {!! Form::text('email', null, ['class' => 'form-control', 'placeholder' => 'address@example.com']) !!}
+                    </div>
+
+                    <div class="form-group">
+                        {!! Form::label('subject', 'Subject') !!}
+                        {!! Form::text('subject', null, ['class' => 'form-control', 'placeholder' => 'Subject']) !!}
+                    </div>
+
+                    <div class="form-group">
+                        {!! Form::label('message', 'Message') !!}
+                        {!! Form::textarea('message', null, ['class' => 'form-control', 'placeholder' => 'Your Message Here', 'rows' => '5']) !!}
+                    </div>
+
+                    {!! Form::submit('Submit', ['class' => 'btn btn-success header-div']) !!}
+
+                {!! Form::close() !!}
+                
+                <div style="padding-top: 15px">
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+                </div>
+                
+                {{-- <form method="POST" action="/contact-us" style="padding-bottom: 50px;">
+                    {{ csrf_field() }}
+
                     <div class="form-group">
                         <label for="EmailImput">Your Email Address</label>
                         <input type="email" class="form-control" id="EmailImput" placeholder="address@example.com">
                     </div>
                     <div class="form-group">
                         <label for="SubjectInput">Subject</label>
-                        <input type="subject" class="form-control" id="SubjectInput" placeholder="Subject">
+                        <input type="text" class="form-control" id="SubjectInput" placeholder="Subject">
                     </div>
                     <div class="form-group">
                         <label for="TextArea">Message</label>
                         <textarea class="form-control" id="TextArea" rows="5" placeholder="Your Message Here"></textarea>
                     </div>
                     <div class="form-group">
-                        <button type="button" class="btn btn-success header-div">Send</button>
+                        <button type="submit" class="btn btn-success header-div">Send</button>
                     </div>
-                </form>
-            </div>    
+                </form> --}}
+
+            </div>
         </div>
 
         <div class="row farming-phone-padding-mobile" style="padding-bottom: 100px">
@@ -101,7 +141,7 @@
 
         var var_mapoptions = {
             center: var_location,
-            zoom: 14
+            zoom: 10
         };
 
         var var_map = new google.maps.Map(document.getElementById("map"),

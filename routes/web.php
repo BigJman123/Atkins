@@ -14,5 +14,6 @@ Route::get('/crop-insurance', function() {return view('layouts.insurance');});
 
 Route::get('/employees', function() {return view('layouts.employees');});
 
-Route::get('/contact-us', function() {return view('layouts.contact');});
+Route::get('/contact-us', 'ContactController@create')->name('contact.create');
 
+Route::post('/contact-us', 'ContactController@send')->name('contact.send');

@@ -63,4 +63,18 @@
 
     </div>
 
+    <div class="container bottom precision-planting-card-mobile" style="padding-bottom: 50px; width: 850px">
+        <div class="card text-center">
+            <div class="card-header">
+                <h5 class="card-title">Finger Meters</h5>
+            </div>
+
+            <div class="card-body">
+                <p class="card-text">We also specialize in the repair of John Deere and Kinze finger meters</p>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                {{-- <a href="#" class="btn btn-primary">Go somewhere</a> --}}
+            </div>
+        </div>
+    </div>
+
 @endsection

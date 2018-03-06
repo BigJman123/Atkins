@@ -26,7 +26,7 @@
         
         <script>
 
-            /* index page */
+            /* index page & planting */
             window.sr = ScrollReveal();
             if(innerWidth <= 546) {
                 sr.reveal('.right', {origin:'bottom', duration: 1000, delay: 250, distance: '200px'});
@@ -35,6 +35,8 @@
                 sr.reveal('.right', {origin:'right', duration: 1000, delay: 250, viewFactor: 0.5, distance: '175px'});
                 sr.reveal('.left', {origin: 'left', duration: 1000, delay: 250, viewFactor: 0.5, distance: '175px'})
             }
+
+            sr.reveal('.bottom', { origin: 'bottom', duration: 1000, delay: 250, distance: '100px'});
 
             /* employee page */
             sr.reveal('.picture', { origin: 'bottom', duration: 1000 }, 100);
