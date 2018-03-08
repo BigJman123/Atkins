@@ -6,14 +6,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="css/carousel.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
         <title>Atkins Seed Service</title>
+
+        <style>
+            .modal-body > .img-responsive {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
     </head>
     <body>
+
         
         @include('layouts.header')
+        
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true" style="display:none">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title lead">Made By</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="assets/JC.jpg" style="width: 50%; border-radius: 50% 50% 50% 50%"/>
+                        <h4 class="text-center lead" style="font-size: 30px; font-weight: 10px; padding-top: 10px">Jordan Center</h4>
+                        <a href="https://goo.gl/qtSZtZ" target="_blank"><p class="text-center">@BigJMaaan</p></a>
+                        <p class="text-center">Tweet me if you've found this easter egg! 😉</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         @yield('content')
 
@@ -23,6 +51,7 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="//unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script src="js/keypress-2.1.5.min.js"></script>
         
         <script>
 
@@ -69,6 +98,14 @@
                 sr.reveal('.text2', { origin: "left", duration: 2000, viewFactor: 0.8 }, 750);
                 sr.reveal('.text3', { origin: "left", duration: 2000, viewFactor: 0.8 }, 750);
             }
+
+            let listener = new window.keypress.Listener();
+
+            listener.sequence_combo("m a d e b y", function() {
+                $('#myModal').modal({
+                    show: true
+                });
+            });
 
       </script>
     </body>
