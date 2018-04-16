@@ -56,26 +56,6 @@
                     @endif
                 </div>
                 
-                {{-- <form method="POST" action="/contact-us" style="padding-bottom: 50px;">
-                    {{ csrf_field() }}
-
-                    <div class="form-group">
-                        <label for="EmailImput">Your Email Address</label>
-                        <input type="email" class="form-control" id="EmailImput" placeholder="address@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="SubjectInput">Subject</label>
-                        <input type="text" class="form-control" id="SubjectInput" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                        <label for="TextArea">Message</label>
-                        <textarea class="form-control" id="TextArea" rows="5" placeholder="Your Message Here"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-success header-div">Send</button>
-                    </div>
-                </form> --}}
-
             </div>
         </div>
 

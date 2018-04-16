@@ -15,7 +15,7 @@
             <span class="active mobile-margin-footer-left" style="margin-left: 65px">&copy; 2018 Atkins Seed Service</span>
             <div>
                 {{-- "Facebook logo" by SimpleIcon from FlatIcon. Unmodified. https://www.flaticon.com/free-icon/facebook-logo_33702#term=facebook&page=1&position=5 --}}
-                <a href="https://goo.gl/ysG5YC" target="_blank"><img src="assets/facebook-logo-footer.svg"></a>
+                <a href="https://www.facebook.com/AtkinsSeedService/" target="_blank"><img src="assets/facebook-logo-footer.svg"></a>
                 
                 {{-- "Coding" by Ben Davis from TheNounProject. Unmodified. https://thenounproject.com/search/?q=code&i=736389 --}}
                 <img id="code" src="assets/code.svg" class="mobile-margin-footer-right" style="margin-right: 65px">

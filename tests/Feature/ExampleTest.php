@@ -18,4 +18,14 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    /** @test */
+    public function can_see_index_page() {
+        $response = $this->get('/');
+
+        $response->assertSee('Family Owned and Operated');
+        $response->assertSee('Precision Planting');
+        $response->assertSee('Pioneer Seeds');
+        $response->assertSee('Custom Farming');
+    }
 }
